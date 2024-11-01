@@ -1,0 +1,27 @@
+# General settings
+*.log
+*.env
+*.properties
+*.backup
+*.tmp
+
+# IDE and System files
+.idea/
+*.iml
+*.swp
+*.DS_Store
+*.vscode/
+
+# Maven/Java build files
+/demo/target/
+*.class
+
+# PHP Composer files
+/vendor/
+composer.lock
+
+# private file and folders
+promo_codes_pip/demo/data/
+promo_codes_pip/demo/target/
+
+/demo/target/surefire-reports/
